@@ -10,7 +10,7 @@
 4. 트리의 속성을 만족 (사이클이 존재하지 않는다)
 
 ### 프림 알고리즘
-시간복잡도는 O(ElogE)
+시간복잡도는 O(n^2)
 ***
 1. 그래프와 비어 있는 최소 신장 트리를 만듦
 2. 임의의 정점을 시작 정점으로 선택하고 최소 신장 트리의 루트 노드로 삽입
@@ -19,12 +19,23 @@
 
 ### 크루스칼 알고리즘
 최종 시간복잡도는 O(ElogV)
+최악의 시간복잡도는 O(n^2logn)
 ***
 크루스칼 알고리즘은 그래프 내의 모든 간선의 가중치를 확인하고 가장 작은 가중치부터 확인해서 최소 신장 트리를 만드는 방법입니다. 크루스칼 알고리즘은 탐욕적인(Greedy) 방법을 사용합니다.
 
 크루스칼 알고리즘으로 최소 신장 트리를 만드는 방법은 다음과 같습니다.
 1. 그래프 내의 모든 간선의 가중치를 오름차순으로 정렬
 2. 오름차순으로 정렬된 가중치를 순회하면서 최소 신장 트리에 삽입 (최소 신장 트리에 삽입 시 사이클이 형성되지 않게 삽입)
+
+
+https://ssabi.tistory.com/60
+
+***
+### Text book
+1. A tree (technically, a free tree) is an acyclic, connected, undirected graph
+2. An algorithm for our problem must obtain a spanning tree of minimum weight. Such a tree is called a minimum spanning tree.
+3. 
+
 
 
 
