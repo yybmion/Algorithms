@@ -24,3 +24,17 @@
 
 * 하향식 접근법 : 상위의 답을 구하기 위해 아래로 내려가면서 하위의 해답을 구하는 방식
 
+### Knapsack problem
+
+https://gsmesie692.tistory.com/113
+
+Q. How to improve the time complexity of standard dynamic programming algorithm for 0-1 Knapsack problem
+
+The algorithm can be improved so that the worst-case number of entries
+computed is in Θ(2^n). With this improvement, it never performs worse than the
+brute-force algorithm and often performs much better. The improvement is
+based on the fact that it is not necessary to determine the entries in the ith row
+for every w between 1 and W. Rather, in the nth row we need only determine P
+[n] [W]. Therefore, the only entries needed in the (n − 1)st row are the ones
+needed to compute P [n] [W]  -- page 246 text book
+
