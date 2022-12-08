@@ -1,4 +1,4 @@
-### Branch and Bound (분기한정법
+### Branch and Bound (분기한정법)
 
 ***
 분기한정법이란?
