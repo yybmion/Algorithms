@@ -57,6 +57,8 @@ https://as-backup.tistory.com/47
 분기한정법을 BFS,DFS,BEST-F-S 로 구분해서 잘 나타내줌
 https://ssocoit.tistory.com/95
 
+DFS - O(2^n)
+
 
 
  

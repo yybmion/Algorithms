@@ -1,3 +1,13 @@
+### Spanning tree
+***
+그래프 내의 모든 정점을 포함하는 트리
+
+Spanning Tree = 신장 트리 = 스패닝 트리
+Spanning Tree는 그래프의 최소 연결 부분 그래프 이다.
+최소 연결 = 간선의 수가 가장 적다.
+n개의 정점을 가지는 그래프의 최소 간선의 수는 (n-1)개이고, (n-1)개의 간선으로 연결되어 있으면 필연적으로 트리 형태가 되고 이것이 바로 Spanning Tree가 된다.
+즉, 그래프에서 일부 간선을 선택해서 만든 트리
+
 # 최소 신장 트리
 
 ***
@@ -25,16 +35,16 @@
 
 크루스칼 알고리즘으로 최소 신장 트리를 만드는 방법은 다음과 같습니다.
 1. 그래프 내의 모든 간선의 가중치를 오름차순으로 정렬
-2. 오름차순으로 정렬된 가중치를 순회하면서 최소 신장 트리에 삽입 (최소 신장 트리에 삽입 시 사이클이 형성되지 않게 삽입)
+2. 오름차순으로 정렬된 가중치를 순회하면서 최소 신장 트리에 삽입 (중요! 최소 신장 트리에 삽입 시 사이클이 형성되지 않게 삽입)
 
 
-https://ssabi.tistory.com/60
+출처: https://ssabi.tistory.com/60
 
 ***
 ### Text book
 1. A tree (technically, a free tree) is an acyclic, connected, undirected graph
 2. An algorithm for our problem must obtain a spanning tree of minimum weight. Such a tree is called a minimum spanning tree.
-3. 
+
 
 
 
