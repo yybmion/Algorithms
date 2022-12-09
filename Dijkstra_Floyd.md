@@ -16,8 +16,8 @@
 -- 선형탐색으로 구한 경우이며 시간복잡도는 O(N^2)
 -- '힙'을 사용하게 되는데 이경우 시간복잡도는 O(NlogN)
 
-https://kosaf04pyh.tistory.com/316
-https://propercoding.tistory.com/111
+출처:https://kosaf04pyh.tistory.com/316
+출처:https://propercoding.tistory.com/111
 
 ## Floyd Warshall Algorithms
 
@@ -27,6 +27,8 @@ https://propercoding.tistory.com/111
 -- 그림과 함께 설명이 필요해 링크를 걸어두겠다.
 
 https://propercoding.tistory.com/109
+
+이 그림에서 노드 1을 거치는 경우, 노드 2를 거치는 경우 쭉 해나아가면서 노란색이 칠해져있는 부분이 노드 1이 포함이 안되어있어 노드 1을 거쳐가면 새로 갱신이 될 수 있는 비용들인데, 생각해보면 저 노란 부분들이 왜 갱신될 수 있는 곳인지 알것이다. 1포함된 행 열 재외 자기자신 제외.
 
 이 알고리즘의 시간 복잡도는 O(n^3)이다. n은 노드 개수를 뜻한다. 
 
