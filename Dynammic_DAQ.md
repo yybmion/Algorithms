@@ -38,3 +38,16 @@ for every w between 1 and W. Rather, in the nth row we need only determine P
 [n] [W]. Therefore, the only entries needed in the (n − 1)st row are the ones
 needed to compute P [n] [W]  -- page 246 text book
 
+### 그리디와 동적프로그래밍
+***
+* 그리디는 순간 순간 최적의 상황을 선택하는데,
+순간 순간마다의 최선의 결정이 전체 문제에서 최선의 해결책이 되지 않는다.
+우리는 인생의 순간에서 매번 최선의 결정을 하게 되지만 그것이 언제나 ‘최적’이 아니듯이…
+
+하지만 이러한 단점들을 극복하는 Greedy의 가장 큰 장점은 계산 속도에 있다. 그래서 Greedy 방법이 통하는 몇몇의 문제에서는 최적해를 빠르게 산출해낼 수 있다.
+
+빠른 계산 속도의 장점으로 앞서 말한 Dynamic Programming과 서로 보완하는 개념으로 알려져 있다.
+
+* 동적 계획법은
+
+다시 말하면 최종 문제를 해결하는 많은 방법들을 모두 탐색하게 된다. 하위 문제들 각각의 해결 방법들을 모두 탐색하기 때문이다. 하지만, 반복되는 하위 문제를 찾아 간단히 해결하도록 만드는 것으로 계산 횟수를 줄일 수 있다.
