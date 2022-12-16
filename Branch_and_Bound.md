@@ -54,6 +54,12 @@ A는 무게 5를 다 넣은게 아니라 4키로 만큼의 A만 넣은거니까 
 Bound의 설명이 가장 잘 되어있음
 https://as-backup.tistory.com/47   
 
+분기한정법을 BFS,DFS,BEST-F-S 로 구분해서 잘 나타내줌
+https://ssocoit.tistory.com/95
+
+DFS - O(2^n)
+
+
 
  
 
